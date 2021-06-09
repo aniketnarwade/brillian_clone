@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// MDBootstrap css files
+import 'mdbootstrap/css/bootstrap.css';
+import 'mdbootstrap/css/mdb.css';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line_spacing{
+    letter-spacing: 2px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-circle{
+    border: 10px solid red;
+    box-shadow: 0 0 10px red;
+    border-radius: 10px !important;
 }
-
-.App-link {
-  color: #61dafb;
+.t-left{
+   margin-left: -17px;
 }
+.t-underline{
+    text-decoration: underline;
+}
+.bg-white1{
+    background-color: red;
+}
+.round-circle1{
+background-color: teal;
+    border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.height1{
+    height: 100px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.card:hover{
+    box-shadow: 0 0 5px black;
+    
+}
+.mrgt{
+    margin-top: 10px !important;
+}
+.wrapper{
+    opacity: 0.4;
+}
+.icontop{
+    margin-top: -100px;
+}
+.serchhere{
+    border: none;
+    text-decoration: none;
+}
+.cardtop{
+    margin-top: 100px !important;
+}
+.atag{
+    text-decoration: underline;
+}
+.atag:hover{
+    text-decoration: underline;
+}
+.martop{
+    margin-top: -20px;
+}
+.bgteal{
+    background: linear-gradient(180deg ,#D1F5FA ,#F9FBB4);
+}
+.fixed2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.box1{
+    border: 2px dotted black;
+    height: 170px;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+
+}
+.drag1{
+    height: 170px;
+    width: 140px;
+
+}
+.btnround{
+    border-radius: 50px !important;
+}
+.trans1{
+    opacity: 0.4;
 }
